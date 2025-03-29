@@ -1,0 +1,18 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+
+# Generated files
+compile_commands.json
+.cache/
+
+# Meson-specific
+meson-logs/
+meson-info/
+ninja.build
+
+# Temporary files
+*.swp
+*~
